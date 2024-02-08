@@ -1,0 +1,50 @@
+.card_container {
+    width: 300px;
+    height: 320px;
+    border: 1px solid rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        transition: all 0.4s ease-in;
+
+    
+        
+    }
+
+
+    .card_infos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        // background-color: green;
+        width: 100%;
+        height: auto;
+    }
+
+    .card_infos p {
+
+        &:nth-child(1) {
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        &:nth-child(2) {
+            color: gray;
+        }
+        &:nth-child(3) {
+            background-color: green;
+            width: min-content;
+            padding: 5px;
+            color: white;
+        }
+
+    }
+}
